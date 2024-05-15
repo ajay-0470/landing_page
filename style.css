@@ -39,6 +39,8 @@ button{
     border-radius: 10px;
     width: 100px;
     border: none;
+    font-weight: 800;
+    font-size: 15x;
 }
 .image{
     height: 200px;
@@ -54,6 +56,7 @@ button{
 .headerbody{display: flex;}
 .headerlogo{
     font-size: 24px;
+    font-weight: 800;
 }
 .title{
     font-size: 48px;
@@ -76,8 +79,8 @@ button{
    padding-top: 50px;
 }
 .box{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border:5px solid  #3882F6;
     border-radius: 16px;
     cursor: pointer;
@@ -86,7 +89,7 @@ button{
     padding-top: 40px;
     display: flex;
     justify-content:center;
-    gap: 20px;
+    gap: 40px;
     padding-bottom: 80px;
 }   
 .text{
@@ -98,6 +101,7 @@ button{
     flex-direction: column;
    align-items: center;
     padding: 140px;
+  
 }
 .quote{
     font-size: 36px;
@@ -111,4 +115,51 @@ button{
     margin-left: 500px;
     font-weight: bolder;
 
+}
+.section4{
+    background-color: white;
+    display: flex;
+   justify-content: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.section4content{
+    display: flex;
+    background-color: #3882F6;
+    height: 160px;
+    width: 900px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    
+}
+.button2{
+    border: 2.5px solid white;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    font-weight: 900;
+    font-size: larger;
+}
+.text2{
+    font-weight: 400;
+    color:#E5E7EB;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    padding: 20px;
+}
+.rectangle{
+    height: 200px;
+    width: 800px;
 }
